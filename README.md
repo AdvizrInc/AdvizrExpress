@@ -29,6 +29,8 @@ the minimum height is 650px at widths >= 800, and 850px at widths < 800px. This 
 
 Take a look at [demo.html](demo.html)
 
+or here https://s3.amazonaws.com/app.advizr.com/test.html
+
 ## Help
 
 For questions or help, please email support@advizr.com.
