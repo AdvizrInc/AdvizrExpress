@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Acme Financial</title>
+
+    <style>
+        html, body {
+            background: #f3f3f3;
+            margin: 0;
+            padding: 0; }
+
+        body {
+            padding: 30px;
+            font-family: Helvetica Neue, Helvetica, Arial;
+            color: #666; }
+
+        h1 {
+            font-weight: 300;
+            margin: 0 0 30px 0;
+            font-size: 35px; }
+
+        p {
+            margin: 0 0 30px 0;
+            line-height: 1.5;
+            font-size: 16px;
+            font-weight: 300;
+            color: #777; }
+
+        /* This is only an example. Style this however you want. */
+        #AdvizrExpress {
+            border: 2px solid #ddd;
+            margin: 0 0 30px 0;
+        }
+
+        /* Here, we're using a negative left and right margin, to offset the padding in the body, so
+         * the widget is flush on the left and right. We're also removing the border on left and right.
+         */
+        @media only screen and (min-width: 0px) and (max-width: 650px) {
+            #AdvizrExpress {
+                border-left: none;
+                border-right: none;
+                margin: 0 -30px 30px -30px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+<h1>Advizr Express Widget Integration Demo</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis eu ex bibendum efficitur. Suspendisse molestie nunc eu ligula interdum aliquam. Vivamus dictum fermentum orci id consectetur. Donec bibendum consectetur scelerisque. Integer diam sem, tempus et sem at, consequat malesuada dolor. Vestibulum pharetra, purus sit amet gravida fringilla, nisl felis aliquam erat, eu finibus nibh massa ut velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+<p>Nullam elit ante, tincidunt sit amet finibus a, blandit id orci. Mauris fringilla ante a augue blandit cursus. Phasellus a metus dui. Duis viverra dolor feugiat feugiat egestas. Maecenas faucibus tincidunt lectus, sed porta metus aliquet in. Curabitur nec tellus ullamcorper nulla tempus interdum eu rhoncus est. Pellentesque luctus feugiat velit efficitur maximus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque id leo ipsum. Curabitur rhoncus mauris ac ligula facilisis, ac porta lacus ullamcorper. Mauris placerat felis vel ornare viverra.</p>
+
+<div id="AdvizrExpress" data-ctaemail="johnsmith@advizr.co"></div>
+<script src="http://54.88.63.218/build/ext/AdvizrExpressWidget.v1.js"></script>
+
+<p>Praesent imperdiet elit magna, vitae tempus elit volutpat ut. Aliquam ultricies dui sed faucibus scelerisque. Proin pharetra rutrum nulla, quis vestibulum dui eleifend ac. Integer sit amet justo eros. Etiam at ornare felis. Donec porttitor vitae lectus ac pulvinar. Aenean placerat velit ut quam ullamcorper accumsan.</p>
+<p>Suspendisse varius ex sit amet diam sollicitudin sagittis. Nulla odio est, pellentesque vel felis sit amet, iaculis tempor massa. Integer tincidunt dapibus tortor et eleifend. Donec purus neque, pharetra in pharetra non, viverra in tortor. Nulla ornare tempus dui, nec maximus tortor pharetra et. Nunc et tincidunt urna, sed placerat velit. Proin sit amet pharetra magna, at rutrum magna. Curabitur ut risus dolor. Duis dictum quam nec volutpat consequat. Etiam a pretium est. Ut nec eleifend leo, vulputate suscipit metus. Nam accumsan dui non ex porta pharetra. Mauris nec risus at orci vehicula facilisis quis ac felis. Integer id pulvinar ex.</p>
+
+</body>
+</html>
