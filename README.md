@@ -10,7 +10,7 @@ Just paste the following code anywhere into your website (make sure to replace Y
 
 ```html
 <div id="AdvizrExpress" data-ctaemail="YOUR EMAIL ADDRESS"></div>
-<script src="https://s3.amazonaws.com/advizr-cdn-prod/express/AdvizrExpressWidget.v1.js"></script>
+<script src="https://resources.advizr.com/express/AdvizrExpressWidget.v1.js"></script>
 ```
 
 Whatever email you provide in place of YOUR EMAIL ADDRESS, is where you will receive email from Advizr Express, as filled out by
